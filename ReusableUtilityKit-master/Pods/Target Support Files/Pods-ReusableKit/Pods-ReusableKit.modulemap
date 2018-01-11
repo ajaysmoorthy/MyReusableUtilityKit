@@ -1,0 +1,6 @@
+framework module Pods_ReusableKit {
+  umbrella header "Pods-ReusableKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
