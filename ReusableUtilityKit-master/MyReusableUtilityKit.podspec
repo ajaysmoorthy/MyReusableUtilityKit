@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = "Ajay S Moorthy"
 
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/ajaysmoorthy/MyReusableUtilityKit.git" }
+  s.source       = { :git => "https://github.com/ajaysmoorthy/MyReusableUtilityKit.git", :tag => s.version.to_s }
   s.framework    = "UIKit"
   s.source_files  = "MyReusableUtilityKit", "MyReusableUtilityKit/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
